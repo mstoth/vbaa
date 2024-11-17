@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :venues
+  resources :groups
   resources :concerts
   get 'agent/home'
   get 'agent/index'
