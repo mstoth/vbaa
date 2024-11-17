@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  group_id: 1
+  title: MyString
+  venue_id: 1
+  start_time: 2024-11-17 04:38:20
+  end_time: 2024-11-17 04:38:20
+  fee: 9.99
+  paid: false
+
+two:
+  group_id: 1
+  title: MyString
+  venue_id: 1
+  start_time: 2024-11-17 04:38:20
+  end_time: 2024-11-17 04:38:20
+  fee: 9.99
+  paid: false
