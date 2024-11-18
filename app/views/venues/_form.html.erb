@@ -1,4 +1,4 @@
-<%= form_with(model: venue) do |form| %>
+<%= form_with(model: venue, data: {controller: "groups"}) do |form| %>
   <% if venue.errors.any? %>
     <div style="color: red">
       <h2><%= pluralize(venue.errors.count, "error") %> prohibited this venue from being saved:</h2>
