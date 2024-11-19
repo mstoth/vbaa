@@ -134,6 +134,11 @@ GEM
     jbuilder (2.13.0)
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
+    leaflet (0.0.6)
+      positify (~> 0.0.1)
+    leaflet-rails (1.9.5)
+      actionpack (>= 4.2.0)
+      railties (>= 4.2.0)
     logger (1.6.1)
     loofah (2.23.1)
       crass (~> 1.0.2)
@@ -179,6 +184,7 @@ GEM
       racc (~> 1.4)
     orm_adapter (0.5.0)
     pg (1.5.9)
+    positify (0.0.1)
     psych (5.2.0)
       stringio
     public_suffix (6.0.1)
@@ -301,6 +307,8 @@ DEPENDENCIES
   geocoder (~> 1.8)
   importmap-rails
   jbuilder
+  leaflet
+  leaflet-rails
   mongoid (= 9.0.3)
   pg (~> 1.1)
   puma (>= 5.0)

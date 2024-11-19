@@ -1,3 +1,4 @@
+
 <%= form_with(model: venue, data: {controller: "map"}) do |form| %>
   <% if venue.errors.any? %>
     <div style="color: red">
@@ -29,6 +30,12 @@
   <div>
     <%= form.label :address, style: "display: block" %>
     <%= form.text_field :address %>
+  </div>
+  <div data-controller="map">
+  <%= form.hidden_field :address, data: {"map-target": "address"} %>
+  <%= form.hidden_field :latitude, data: {"map-target": "latitude"} %>
+  <%= form.hidden_field :longitude, data: {"map-target": "longitude"} %>
+  <div data-map-target="container" style="min-height: 300px"></div>
   </div>
 
   <div>

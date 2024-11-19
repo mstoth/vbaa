@@ -18,7 +18,10 @@
     <strong>Address:</strong>
     <%= venue.address %>
   </p>
+  <div data-controller="map">
 
+  <div data-map-target="container" style="min-height: 300px"></div>
+  </div>
   <p>
     <strong>Phone:</strong>
     <%= venue.phone %>

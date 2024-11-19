@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  group_id: 1
+  venue_id: 1
+  concert_id: 1
+  date_booked: 2024-11-26 06:09:00 UTC
+  booked_fee: 9.99
+
+two:
+  group_id: 1
+  venue_id: 1
+  concert_id: 1
+  date_booked: 2024-11-26 06:09:00 UTC
+  booked_fee: 9.99

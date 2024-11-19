@@ -1,0 +1,42 @@
+<%= form_with(model: booking, class: "contents", date: {controller: "bookings"}) do |form| %>
+  <% if booking.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(booking.errors.count, "error") %> prohibited this booking from being saved:</h2>
+
+      <ul>
+        <% booking.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="my-5">
+    <%= form.label :group_id, style: "display: block" %>
+    <%= form.number_field :group_id %>
+  </div>
+
+  <div class="my-5">
+    <%= form.label :venue_id, style: "display: block" %>
+    <%= form.number_field :venue_id %>
+  </div>
+
+  <div class="my-5">
+    <%= form.label :concert_id, style: "display: block" %>
+    <%= form.number_field :concert_id %>
+  </div>
+
+  <div class="my-5">
+    <%= form.label :date_booked, style: "display: block" %>
+    <%= form.datetime_field :date_booked, html: {step: 1}%>
+  </div>
+
+  <div class="my-5">
+    <%= form.label :booked_fee, style: "display: block" %>
+    <%= form.text_field :booked_fee %>
+  </div>
+
+  <div class="inline">
+    <%= form.submit class: "rounded-lg py-3 px-5 bg-blue-600 text-white inline-block font-medium cursor-pointer"  %>
+  </div>
+<% end %>
