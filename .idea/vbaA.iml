@@ -46,12 +46,14 @@
     <orderEntry type="library" scope="PROVIDED" name="bigdecimal (v3.1.8, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bindex (v0.8.1, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bootsnap (v1.18.4, RVM: ruby-3.1.4) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bson (v5.0.1, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.3.0, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v2.5.17, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="capybara (v3.40.0, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="concurrent-ruby (v1.3.4, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="connection_pool (v2.4.1, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="crass (v1.0.6, RVM: ruby-3.1.4) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="csv (v3.3.0, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="date (v3.4.0, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="debug (v1.9.2, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="devise (v4.9.4, RVM: ruby-3.1.4) [gem]" level="application" />
@@ -59,6 +61,7 @@
     <orderEntry type="library" scope="PROVIDED" name="error_highlight (v0.6.0, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubi (v1.13.0, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="flatpickr (v4.6.13.1, RVM: ruby-3.1.4) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="geocoder (v1.8.3, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="globalid (v1.2.1, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v1.14.6, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="importmap-rails (v2.0.3, RVM: ruby-3.1.4) [gem]" level="application" />
@@ -72,6 +75,8 @@
     <orderEntry type="library" scope="PROVIDED" name="matrix (v0.4.2, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mini_mime (v1.1.5, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="minitest (v5.25.1, RVM: ruby-3.1.4) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mongo (v2.21.0, RVM: ruby-3.1.4) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mongoid (v9.0.3, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="msgpack (v1.7.5, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mutex_m (v0.2.0, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="net-imap (v0.5.1, RVM: ruby-3.1.4) [gem]" level="application" />
@@ -299,6 +304,10 @@
     </entry>
     <entry key="public/stylesheets">
       <value>file://$MODULE_DIR$/public/stylesheets</value>
+    </entry>
+    <entry key="test/mailers/previews">
+      <value>file://$MODULE_DIR$/test/mailers/previews</value>
+      <value>file://$MODULE_DIR$/test/mailers/previews</value>
     </entry>
     <entry key="tmp">
       <value>file://$MODULE_DIR$/tmp</value>

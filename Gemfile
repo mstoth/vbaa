@@ -73,3 +73,5 @@ group :test do
 end
 
 gem "simple_form", "~> 5.3"
+gem 'mongoid', '9.0.3'
+gem "geocoder", "~> 1.8"
