@@ -9,3 +9,4 @@ pin "stimulus-flatpickr", to: "https://ga.jspm.io/npm:stimulus-flatpickr@3.0.0-0
 pin "flatpickr", to: "https://ga.jspm.io/npm:flatpickr@4.6.9/dist/flatpickr.js"
 pin "leaflet" # @1.9.4
 pin "leaflet-geosearch" # @4.0.0
+pin "mapkick/bundle", to: "mapkick--bundle.js" # @0.2.6

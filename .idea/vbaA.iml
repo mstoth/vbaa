@@ -28,6 +28,9 @@
     </content>
     <orderEntry type="jdk" jdkName="RVM: ruby-3.1.4" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="leaflet-geosearch" level="application" />
+    <orderEntry type="library" name="leaflet" level="application" />
+    <orderEntry type="library" name="flatpickr" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actioncable (v7.1.5, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionmailbox (v7.1.5, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionmailer (v7.1.5, RVM: ruby-3.1.4) [gem]" level="application" />
@@ -57,6 +60,8 @@
     <orderEntry type="library" scope="PROVIDED" name="date (v3.4.0, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="debug (v1.9.2, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="devise (v4.9.4, RVM: ruby-3.1.4) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="dotenv (v2.8.1, RVM: ruby-3.1.4) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="dotenv-rails (v2.8.1, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="drb (v2.2.1, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="error_highlight (v0.6.0, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubi (v1.13.0, RVM: ruby-3.1.4) [gem]" level="application" />
@@ -73,6 +78,7 @@
     <orderEntry type="library" scope="PROVIDED" name="logger (v1.6.1, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="loofah (v2.23.1, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.8.1, RVM: ruby-3.1.4) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mapkick-rb (v0.2.0, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="marcel (v1.0.4, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="matrix (v0.4.2, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mini_mime (v1.1.5, RVM: ruby-3.1.4) [gem]" level="application" />
@@ -129,9 +135,6 @@
     <orderEntry type="library" scope="PROVIDED" name="websocket-extensions (v0.1.5, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="xpath (v3.2.0, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="zeitwerk (v2.6.18, RVM: ruby-3.1.4) [gem]" level="application" />
-    <orderEntry type="library" name="leaflet-geosearch" level="application" />
-    <orderEntry type="library" name="leaflet" level="application" />
-    <orderEntry type="library" name="flatpickr" level="application" />
   </component>
   <component name="RModuleSettingsStorage">
     <LOAD_PATH number="0" />

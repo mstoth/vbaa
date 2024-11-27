@@ -112,6 +112,10 @@ GEM
       railties (>= 4.1.0)
       responders
       warden (~> 1.2.3)
+    dotenv (2.8.1)
+    dotenv-rails (2.8.1)
+      dotenv (= 2.8.1)
+      railties (>= 3.2)
     drb (2.2.1)
     error_highlight (0.6.0)
     erubi (1.13.0)
@@ -148,6 +152,7 @@ GEM
       net-imap
       net-pop
       net-smtp
+    mapkick-rb (0.2.0)
     marcel (1.0.4)
     matrix (0.4.2)
     mini_mime (1.1.5)
@@ -302,6 +307,7 @@ DEPENDENCIES
   capybara
   debug
   devise
+  dotenv-rails
   error_highlight (>= 0.4.0)
   flatpickr
   geocoder (~> 1.8)
@@ -309,6 +315,7 @@ DEPENDENCIES
   jbuilder
   leaflet
   leaflet-rails
+  mapkick-rb
   mongoid (= 9.0.3)
   pg (~> 1.1)
   puma (>= 5.0)

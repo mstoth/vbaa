@@ -26,6 +26,7 @@
 
   <p>
     <strong>Image:</strong>
+    <%= image_tag group.image if group.image.attached? %>
     <%= link_to group.image.filename, group.image if group.image.attached? %>
   </p>
 
