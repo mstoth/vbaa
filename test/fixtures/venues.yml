@@ -1,14 +1,16 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
+  id: 1
+  name: Michael's Place
   contact: MyString
   email: MyString
   address: MyString
   phone: MyString
 
 two:
-  name: MyString
+  id: 2
+  name: Myra's Place
   contact: MyString
   email: MyString
   address: MyString

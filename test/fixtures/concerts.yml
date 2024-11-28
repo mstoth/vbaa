@@ -2,7 +2,7 @@
 
 one:
   group_id: 1
-  title: MyString
+  title: Piano Times Two
   venue_id: 1
   start_time: 2024-11-17 04:38:20
   end_time: 2024-11-17 04:38:20
@@ -10,9 +10,9 @@ one:
   paid: false
 
 two:
-  group_id: 1
-  title: MyString
-  venue_id: 1
+  group_id: 2
+  title: Brahms and Frank
+  venue_id: 2
   start_time: 2024-11-17 04:38:20
   end_time: 2024-11-17 04:38:20
   fee: 9.99

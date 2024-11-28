@@ -3,6 +3,8 @@ require "test_helper"
 class ConcertsControllerTest < ActionDispatch::IntegrationTest
   setup do
     @concert = concerts(:one)
+    @group = groups(:one)
+    @venue = venues(:one)
   end
 
   test "should get index" do
