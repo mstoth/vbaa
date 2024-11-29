@@ -1,0 +1,19 @@
+{
+  "name": "app",
+  "private": true,
+  "devDependencies": {
+    "esbuild": "^0.24.0"
+  },
+  "scripts": {
+    "build": "esbuild app/javascript/*.* --bundle --sourcemap --format=esm --outdir=app/assets/builds --public-path=/assets"
+  },
+  "dependencies": {
+    "@googlemaps/js-api-loader": "^1.16.8",
+    "@hotwired/stimulus": "^3.2.2",
+    "@hotwired/turbo-rails": "^8.0.12",
+    "flatpickr": "^4.6.13",
+    "flowbite": "^2.5.2",
+    "leaflet": "^1.9.4",
+    "leaflet-geosearch": "^4.0.0"
+  }
+}
