@@ -16,11 +16,9 @@ class ConcertsTest < ApplicationSystemTestCase
 
     fill_in "End time", with: @concert.end_time
     fill_in "Fee", with: @concert.fee
-    fill_in "Group", with: @concert.group_id
     check "Paid" if @concert.paid
     fill_in "Start time", with: @concert.start_time
     fill_in "Title", with: @concert.title
-    fill_in "Venue", with: @concert.venue_id
     click_on "Create Concert"
 
     assert_text "Concert was successfully created"
@@ -33,11 +31,9 @@ class ConcertsTest < ApplicationSystemTestCase
 
     fill_in "End time", with: @concert.end_time
     fill_in "Fee", with: @concert.fee
-    fill_in "Group", with: @concert.group_id
     check "Paid" if @concert.paid
     fill_in "Start time", with: @concert.start_time
     fill_in "Title", with: @concert.title
-    fill_in "Venue", with: @concert.venue_id
     click_on "Update Concert"
 
     assert_text "Concert was successfully updated"

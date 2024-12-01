@@ -49,7 +49,6 @@
     <orderEntry type="library" scope="PROVIDED" name="bigdecimal (v3.1.8, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bindex (v0.8.1, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bootsnap (v1.18.4, RVM: ruby-3.1.4) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="bson (v5.0.1, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.3.0, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v2.5.17, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="capybara (v3.40.0, RVM: ruby-3.1.4) [gem]" level="application" />
@@ -83,8 +82,6 @@
     <orderEntry type="library" scope="PROVIDED" name="matrix (v0.4.2, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mini_mime (v1.1.5, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="minitest (v5.25.1, RVM: ruby-3.1.4) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mongo (v2.21.0, RVM: ruby-3.1.4) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mongoid (v9.0.3, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="msgpack (v1.7.5, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mutex_m (v0.2.0, RVM: ruby-3.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="net-imap (v0.5.1, RVM: ruby-3.1.4) [gem]" level="application" />
