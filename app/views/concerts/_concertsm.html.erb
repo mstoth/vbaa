@@ -1,0 +1,8 @@
+<div id="<%= dom_id concert %>">
+  <p class="my-5 flex-row">
+    <strong class=" font-medium mb-1">Group:</strong>
+    <%= Group.find(concert.group_id).title unless Group.find(concert.group_id).nil? %>
+    <strong class=" font-medium mb-1">Title:</strong>
+    <%= concert.title %>
+  </p>
+</div>
