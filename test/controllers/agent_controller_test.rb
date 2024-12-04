@@ -10,4 +10,10 @@ class AgentControllerTest < ActionDispatch::IntegrationTest
     get agent_index_url
     assert_response :success
   end
+
+  test "should get about" do
+    get agent_about_url
+    assert_response :success
+  end
+
 end

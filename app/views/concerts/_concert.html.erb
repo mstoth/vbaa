@@ -9,6 +9,8 @@
     <%= concert.title %>
   </p>
 
+  <% if concert.start_time %>
+
   <p class="my-5">
     <strong class="block font-medium mb-1">Venue:</strong>
     <%= Venue.find(concert.venue_id).name %>
@@ -32,6 +34,14 @@
   <p class="my-5">
     <strong class="block font-medium mb-1">Paid:</strong>
     <%= concert.paid %>
+  </p>
+  <% end %>
+
+  <h1>Pieces:</h1>
+  <p class="my-5">
+    <% concert.pieces.each do |p| %>
+    <%= link_to  p.title, p.recording %>
+    <% end %>
   </p>
 
 </div>
