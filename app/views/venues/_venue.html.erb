@@ -15,9 +15,15 @@
   </p>
 
   <p>
+    <strong>Website:</strong>
+    <%= link_to venue.website, venue.name %>
+  </p>
+
+  <p>
     <strong>Address:</strong>
     <%= venue.address %>
   </p>
+
   <%= js_map [{latitude: venue.latitude, longitude: venue.longitude}], width: "300px", height: "300px" %>
   <p>
     <strong>Phone:</strong>

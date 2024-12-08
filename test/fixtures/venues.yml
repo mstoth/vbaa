@@ -5,7 +5,7 @@ one:
   name: Michael's Place
   contact: MyString
   email: MyString
-  address: MyString
+  address: 1716 Elm St. Bethlehem PA 18017
   phone: MyString
   latitude: 40
   longitude: -70
@@ -15,7 +15,7 @@ two:
   name: Myra's Place
   contact: MyString
   email: MyString
-  address: MyString
+  address: 2830 Old S Pike Ave. Allentown, PA 18104
   phone: MyString
   latitude: 40
   longitude: -70

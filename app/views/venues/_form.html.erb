@@ -31,15 +31,15 @@
     <%= form.label :address, style: "display: block" %>
     <%= form.text_field :address %>
   </div>
-  <div data-controller="map">
-  <%= form.hidden_field :latitude, data: {"map-target": "latitude"} %>
-  <%= form.hidden_field :longitude, data: {"map-target": "longitude"} %>
-  <div data-map-target="container" style="min-height: 300px"></div>
-  </div>
 
   <div>
     <%= form.label :phone, style: "display: block" %>
     <%= form.text_field :phone %>
+  </div>
+
+  <div>
+    <%= form.label :website, style: "display: block" %>
+    <%= form.text_field :website %>
   </div>
 
   <div>

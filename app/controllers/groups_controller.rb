@@ -1,8 +1,11 @@
 class GroupsController < ApplicationController
   before_action :set_group, only: %i[ show edit update destroy ]
-
+  @range = 50
   # GET /groups or /groups.json
   def index
+    if current_user && len(current_user.groups)>0
+      @reference_address = current_user.groups.first.address
+    end
     @groups = Group.all
   end
 

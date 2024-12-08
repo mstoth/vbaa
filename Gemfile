@@ -76,3 +76,8 @@ gem "mapkick-rb"
 gem "simple_form", "~> 5.3"
 gem "geocoder", "~> 1.8"
 gem "dotenv-rails"
+
+gem 'geocodio-gem'
+gem 'faraday'
+gem 'faraday-follow_redirects'
+gem 'nokogiri', '>= 1.13.6'

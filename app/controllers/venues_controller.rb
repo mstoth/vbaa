@@ -1,9 +1,20 @@
+
+require 'dotenv-rails'
+require 'geocodio/gem'
 class VenuesController < ApplicationController
   before_action :set_venue, only: %i[ show edit update destroy ]
 
   # GET /venues or /venues.json
   def index
     @venues = Venue.all
+    geocodio = Geocodio::Gem::new(Rails.application.credentials.dig(:geocodio, :vba))
+    @venues.each do |v|
+      if v.latitude == nil || v.longitude == nil
+        results = geocodio.geocode([v.address])
+        v.latitude = results["results"][0]["location"]["lat"]
+        v.longitude = results["results"][0]["location"]["lng"]
+      end
+    end
   end
 
   # GET /venues/1 or /venues/1.json
@@ -36,7 +47,7 @@ class VenuesController < ApplicationController
   end
 
   # PATCH/PUT /venues/1 or /venues/1.json
-  def update
+   def update
     respond_to do |format|
       if @venue.update(venue_params)
         format.html { redirect_to @venue, notice: "Venue was successfully updated." }
@@ -62,10 +73,20 @@ class VenuesController < ApplicationController
     # Use callbacks to share common setup or constraints between actions.
     def set_venue
       @venue = Venue.find(params[:id])
+      if @venue.longitude.nil? or @venue.latitude.nil?
+        geocodio = Geocodio::Gem::new(Rails.application.credentials.dig(:geocodio, :vba))
+        @results = geocodio.geocode([@venue.address])
+        if !@results.nil?
+          @lat = @results["results"][0]["location"]["lat"]
+          @lng = @results["results"][0]["location"]["lng"]
+          @venue.latitude = @lat
+          @venue.longitude = @lng
+        end
+      end
     end
 
     # Only allow a list of trusted parameters through.
     def venue_params
       params.require(:venue).permit(:name, :contact, :email, :address, :phone, :image, :latitude, :longitude)
     end
-end
+  end

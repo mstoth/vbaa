@@ -29,7 +29,6 @@ class ConcertsTest < ApplicationSystemTestCase
     visit concert_url(@concert)
     click_on "Edit this concert", match: :first
 
-    fill_in "End time", with: @concert.end_time
     fill_in "Fee", with: @concert.fee
     check "Paid" if @concert.paid
     fill_in "Start time", with: @concert.start_time
